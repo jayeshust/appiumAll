@@ -1,0 +1,11 @@
+"C:/Program Files (x86)/Appium/node.exe" "C:/Program Files (x86)/Appium/node_modules/appium/bin/Appium.js" -a 127.0.0.1 -p 4723 --no-reset --app D:/dc_MyProductivity_debug.apk --app-pkg com.openstream.cueme.services.workbench --app-wait-package com.openstream.cueme.services.workbench --app-activity com.openstream.mmi.gui.CuemeActivityDelegate --app-wait-activity com.openstream.mmi.gui.CuemeActivityDelegate --platform-name Android --automation-name Appium --platform-version 4.4
+
+working - "C:/Program Files (x86)/Appium/node.exe" "C:/Program Files (x86)/Appium/node_modules/appium/bin/Appium.js" -a 127.0.0.1 -p 4723  --app D:/dc_MyProductivity_debug.apk --platform-name Android --automation-name Appium --platform-version 4.4
+
+
+
+		
+"C:/Program Files (x86)/Appium/node.exe" "C:/Program Files (x86)/Appium/node_modules/appium/bin/Appium.js" -a 127.0.0.1 -p 4723  --app D:/TEST_DC_MyProd_TC_feb17_15526b.apk --platform-name Android --automation-name Appium --platform-version 4.4
+		
+"C:/Program Files (x86)/Appium/node.exe" "C:/Program Files (x86)/Appium/node_modules/appium/bin/Appium.js" -a 127.0.0.1 -p 4723  --app D:/dc_MyProductivity_debug.apk --platform-name Android --automation-name Appium --platform-version 4.4 		
+

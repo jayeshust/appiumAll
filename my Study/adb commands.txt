@@ -1,0 +1,13 @@
+adb shell am start -n com.ionicframework.voicetest496183/com.ionicframework.voicetest496183.MainActivity
+adb shell am start -n com.ionicframework.voicetestdevice257367/com.ionicframework.voicetestdevice257367.MainActivity
+
+adb shell am start -a android.intent.action.DELETE -d package:com.ionicframework.voicetestdevice257367
+adb shell am start -a android.intent.action.DELETE -d package:com.ionicframework.voicetest496183
+
+adb shell am start -a android.intent.action.DELETE -d package:com.ionicframework.ionicappiumprotractorexample806497
+adb shell am start -n com.ionicframework.ionicappiumprotractorexample806497/com.ionicframework.ionicappiumprotractorexample806497.MainActivity
+
+
+adb shell am start -a android.intent.action.DELETE -d package:com.openstream.cueme.services.workbench
+
+adb shell pm list packages

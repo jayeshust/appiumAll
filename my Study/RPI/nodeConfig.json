@@ -1,0 +1,26 @@
+{
+"capabilities":
+[
+{
+"browserName": "ANDROID",
+"version":"4.4.4",
+"maxInstances": 1,
+"platform":"ANDROID"
+}
+],
+"configuration":
+{
+"cleanUpCycle":2000,
+"timeout":30000,
+"proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+"url":"http://172.21.35.65:4723/wd/hub",
+"host":"172.21.35.65",
+"port": 4723,
+"maxSession": 1,
+"register": true,
+"registerCycle": 5000,
+"hub": "us07805s4116d0a.s07805.us.wal-mart.com:4444/grid/register",
+"hubPort":4444,
+"hubHost": "us07805s4116d0a.s07805.us.wal-mart.com"
+}
+}
